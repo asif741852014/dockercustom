@@ -1,0 +1,11 @@
+name: asif
+on:
+  push:
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Dockeraction
+      uses: ./
+    - name: step2
+      run: echo " completed successfully"

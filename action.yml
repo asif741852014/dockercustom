@@ -1,0 +1,5 @@
+name: docker custom action
+description: hai am from docker container
+runs:
+  using: "docker"
+  image: "Dockerfile"

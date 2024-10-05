@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Dockeraction
-      uses: ./
+      uses: .
     - name: step2
       run: echo " completed successfully"

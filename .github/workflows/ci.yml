@@ -8,6 +8,7 @@ jobs:
     - name: checkout
       uses: actions/checkout@v4
     - name: Dockeraction
+      id: out
       uses: ./
     - name: step2
-      run: echo " completed successfully"
+      run: echo " completed successfully and got ${{steps.out.outputs.output1}}"

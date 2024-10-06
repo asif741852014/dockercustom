@@ -1,5 +1,9 @@
 name: docker custom action
 description: hai am from docker container
+outputs:
+  output1:
+    description: "needed"
+    default: "asif"
 runs:
   using: "docker"
   image: "Dockerfile"
